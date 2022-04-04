@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html class="scroll-smooth" lang="en">
+<html class="scroll-smooth" lang="id">
 
 <head>
 	<meta charset="UTF-8">
@@ -29,14 +29,15 @@
 				</div>
 				<div class="flex items-center px-4">
 					<button id="hamburger" name="hamburger" type="button"
-					class="block absolute right-4 lg:hidden">
+					class="block absolute right-4 lg:hidden md:hidden">
 						<span class="hamburger-line transition duration-300 ease-in-out origin-top-left"></span>
 						<span class="hamburger-line transition duration-300 ease-in-out"></span>
 						<span class="hamburger-line transition duration-300 ease-in-out origin-bottom-left"></span>
 					</button>
 
 					<nav id="nav-menu" class="hidden absolute py-5 bg-neutral-800 
-					shadow-lg rounded-lg max-w-[250px] w-full right-4 top-full lg:block lg:static lg:bg-transparent lg:max-w-full">
+					shadow-lg rounded-lg max-w-[250px] w-full right-0 top-full lg:block lg:static lg:bg-transparent lg:max-w-full 
+					md:block md:static md:max-w-full md:bg-transparent">
 						<ul class="block lg:flex lg:shadow-none lg:rounded-none md:flex md:shadow-none md:rounded-none">
 							<li class="group">
 								<a href="#" class="text-base text-white
@@ -168,63 +169,70 @@
 	</section>
 	<!-- About Section End -->
 
-	<!-- My Projects -->
-	<div class=" bg-zinc-600 opacity-90 mt-64 flex justify-between items-center px-8 md:px-14 w-full">
-		<section class="w-full">
-			<h1 id="portfolio" class="font-bold text-3xl text-blue-300 text-center uppercase">Portfolio</h1>
-			<h2 id="projects" class="text-center text-white uppercase">Projects Terbaru</h2>
-			<div class="w-full border border-nav p-16 grid grid-cols-1 md:grid-cols-2 
-				lg:grid-cols-3 gap-6 mt-6 rounded-lg">
-				<a class="transition duration-700 ease-out hover:scale-110"
-					href="https://github.com/ahay12/Advertising">
-					<img src="https://images.unsplash.com/photo-1576153192396-180ecef2a715?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1374&q=80"
-						class="transition ease-in-out duration-700 origin-center w-full bg-nav h-72 lg:h-72 object-cover">
-					<p class="text-center">Data Analyst/Data Science</p>
-					<p class="text-center section-paragraph">Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-						Assumenda doloremque illo sint quod, dolorum distinctio.</p>
-				</a>
-				<a class="transition duration-700 ease-in-out hover:scale-110" href="#">
-					<img src="https://images.unsplash.com/photo-1545235617-9465d2a55698?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=880&q=80"
-						class="w-full bg-nav h-72 lg:h-72 object-cover">
-					<p class="text-center">Data Analyst/Data Science</p>
-					<p class="text-center section-paragraph">Lorem ipsum dolor sit, amet consectetur adipisicing elit.
-						Magni temporibus nam itaque ad alias aliquam?</p>
-				</a>
-				<a class="transition duration-700 ease-in-out hover:scale-110" href="">
-					<img src="https://images.unsplash.com/photo-1586717791821-3f44a563fa4c?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1470&q=80"
-						class="w-full hidden md:block bg-nav h-36 lg:h-72 object-cover">
-					<p class="text-center hidden md:block">Data Analyst/Data Science</p>
-					<p class="text-center section-paragraph hidden md:block">Lorem ipsum dolor sit amet consectetur
-						adipisicing elit.
-						Harum illum nostrum consequuntur, porro qui eos.</p>
-				</a>
-				<a class="transition duration-700 ease-in-out hover:scale-110" href="">
-					<img src="https://images.unsplash.com/photo-1558655146-d09347e92766?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=764&q=80"
-						class="w-full hidden md:block bg-nav h-36 lg:h-72 object-cover">
-					<p class="text-center hidden md:block">Data Analyst/Data Science</p>
-					<p class="text-center section-paragraph hidden md:block">Lorem ipsum dolor sit amet consectetur
-						adipisicing elit.
-						Voluptas magnam quisquam quod nulla, veniam culpa?</p>
-				</a>
-				<a class="transition duration-700 ease-in-out hover:scale-110" href="">
-					<img src="https://images.unsplash.com/photo-1547119957-637f8679db1e?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=764&q=80"
-						class="w-full hidden md:block bg-nav h-36 lg:h-72 object-cover">
-					<p class="text-center hidden md:block">Data Analyst/Data Science</p>
-					<p class="text-center section-paragraph hidden md:block">Lorem ipsum dolor sit amet consectetur
-						adipisicing elit.
-						Voluptas magnam quisquam quod nulla, veniam culpa?</p>
-				</a>
-				<a class="transition duration-700 ease-in-out hover:scale-110" href="">
-					<img src="https://images.unsplash.com/photo-1559028012-481c04fa702d?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1336&q=80"
-						class="w-full hidden md:block bg-nav h-36 lg:h-72 object-cover">
-					<p class="text-center hidden md:block">Data Analyst/Data Science</p>
-					<p class="text-center section-paragraph hidden md:block">Lorem ipsum dolor sit amet consectetur
-						adipisicing elit.
-						Voluptas magnam quisquam quod nulla, veniam culpa?</p>
-				</a>
-		</section>
-	</div>
 
+	<!-- Portfolio Section -->
+	<section id="portfolio" class="pt-36 pb-16 bg-gradient-to-b from-body to-slate-300">
+		<div class="container">
+			<div class="w-full px-4">
+				<div class="max-w-xl mx-auto text-center mb-16">
+					<h4 class="font-semibold text-lg text-white mb-2">Portfolio</h4>
+					<h2 class="font-bold text-3xl text-white mb-4 ">Project Terbaru</h2>
+					<p class="font-medium text-md section-paragraph">Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+						Quae, harum voluptas? Dolore quasi nobis fugiat.
+					</p>
+				</div>
+			</div>
+			<div class="w-full px-4 flex flex-wrap justify-center
+			md:w-10/12 mx-auto xl:mx-auto">
+				<div class="mb-12 p-4 md:w-1/2">
+					<div class="rounded-md overflow-hidden">
+						<img src="https://images.unsplash.com/photo-1576153192396-180ecef2a715?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1374&q=80" 
+						alt="Data Science" width="w-full">
+					</div>
+					<h3 class="font-semibold text-black text-xl mt-5
+					mb-5">Data Analyst/Data Science</h3>
+					<p class="font-md text-base text-black">
+						Lorem ipsum dolor sit amet, consectetur adipisicing elit. Blanditiis, aperiam quas? Ab illo consectetur inventore?
+					</p>
+				</div>
+				<div class="mb-12 p-4 md:w-1/2">
+					<div class="rounded-md overflow-hidden">
+						<img src="https://images.unsplash.com/photo-1576153192396-180ecef2a715?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1374&q=80" 
+						alt="Data Science" width="w-full">
+					</div>
+					<h3 class="font-semibold text-black text-xl mt-5
+					mb-5">Data Analyst/Data Science</h3>
+					<p class="font-md text-base text-black">
+						Lorem ipsum dolor sit amet, consectetur adipisicing elit. Blanditiis, aperiam quas? Ab illo consectetur inventore?
+					</p>
+				</div>
+				<div class="mb-12 p-4 md:w-1/2">
+					<div class="rounded-md overflow-hidden">
+						<img src="https://images.unsplash.com/photo-1576153192396-180ecef2a715?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1374&q=80" 
+						alt="Data Science" width="w-full">
+					</div>
+					<h3 class="font-semibold text-black text-xl mt-5
+					mb-5">Data Analyst/Data Science</h3>
+					<p class="font-md text-base text-black">
+						Lorem ipsum dolor sit amet, consectetur adipisicing elit. Blanditiis, aperiam quas? Ab illo consectetur inventore?
+					</p>
+				</div>
+				<div class="mb-12 p-4 md:w-1/2">
+					<div class="rounded-md overflow-hidden">
+						<img src="https://images.unsplash.com/photo-1576153192396-180ecef2a715?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1374&q=80" 
+						alt="Data Science" width="w-full">
+					</div>
+					<h3 class="font-semibold text-black text-xl mt-5
+					mb-5">Data Analyst/Data Science</h3>
+					<p class="font-md text-base text-black">
+						Lorem ipsum dolor sit amet, consectetur adipisicing elit. Blanditiis, aperiam quas? Ab illo consectetur inventore?
+					</p>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<!-- Portfolio Section End -->
 
 	<!-- Experience
 	<div class="container mt-64 flex justify-between items-center mx-auto px-8 md:px-14 lg:px-24 w-full">
