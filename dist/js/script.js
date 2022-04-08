@@ -20,3 +20,7 @@ window.onscroll = function () {
     header.classList.remove("navbar-fixed");
   }
 };
+
+// Animates on scroll
+
+// On page Load
