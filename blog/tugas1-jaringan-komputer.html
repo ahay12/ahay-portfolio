@@ -6,9 +6,9 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>TUGAS 1 Jaringan Komputer</title>
-    <link rel="icon" type="image/x-icon" href="dist/img/favicon.png" sizes="512x512">
+    <link rel="icon" type="image/x-icon" href="/dist/img/favicon.png" sizes="512x512">
     <!-- TailwindCSS -->
-    <link rel="stylesheet" href="dist/output.css">
+    <link rel="stylesheet" href="/dist/output.css">
     <!-- JS -->
     <!-- Font Awesome -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -24,7 +24,7 @@
             <div class="flex item-center justify-between relative">
                 <div class="px-4">
                     <a href="#" class="block py-6">
-                        <img src="dist/img/favicon.png" alt="logo">
+                        <img src="/dist/img/favicon.png" alt="logo">
                     </a>
                 </div>
                 <div class="flex items-center px-4">
@@ -40,7 +40,7 @@
 					md:block md:static md:max-w-full md:bg-transparent">
                         <ul class="block lg:flex lg:shadow-none lg:rounded-none md:flex md:shadow-none md:rounded-none">
                             <li class="group">
-                                <a href="#https://ahay12.github.io/portfolio/#" class="text-base text-white
+                                <a href="https://ahay12.github.io/portfolio/#" class="text-base text-white
 								py-2 mx-8 flex group-hover:text-theme">Home</a>
                             </li>
                             <li class="group">
@@ -74,10 +74,11 @@
     <section class="pt-36">
         <div class="container text-justify">
             <div>
-                <img src="https://deepublishstore.com/wp-content/uploads/2021/05/pengertian-LAN-MAN-WAN-dan-PAN.png"
+                <img class="pb-4"
+                    src="https://deepublishstore.com/wp-content/uploads/2021/05/pengertian-LAN-MAN-WAN-dan-PAN.png"
                     alt="">
-                <h1>Apa Itu PAN, LAN, MAN, dan WAN</h1>
-                <div class="flex justify-center">
+                <h1 class="text-2xl pb-2">Apa Itu PAN, LAN, MAN, dan WAN</h1>
+                <div class="flex justify-center pb-2">
                     <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/6e/Data_Networks_classification_by_spatial_scope.svg/225px-Data_Networks_classification_by_spatial_scope.svg.png"
                         alt="topologi">
                     <h2 class="pb-2">
@@ -117,23 +118,96 @@
                     Ada beberapa karakteristik atau ciri-ciri jaringan PAN yang membedakannya dengan jenis jaringan
                     lainnya. Beberapa properti ini tercantum di bawah ini.
                 </p>
-                <ul class="list-decimal">
-                    <li>PAN adalah titik akses untuk berbagai perangkat seperti telepon, komputer, ponsel, laptop,
-                        dan perangkat lain yang digunakan untuk komunikasi publik seperti Internet.</li>
-                </ul>
+                <div class="block p-6 rounded-lg shadow-lg bg-white max-w-sm">
+                    <p class="text-black">
+                        1. PAN adalah titik akses untuk berbagai perangkat seperti telepon, komputer, ponsel, laptop,
+                        dan perangkat lain yang digunakan untuk komunikasi publik seperti Internet.<br>
+                        2. Kontrol pada jaringan PAN dilakukan melalui autoritas pribadi <br>
+                        3. Data yang dikirimkan mempunyai sifat khas dan juga personal. Hal ini karena jaringan ini
+                        hanya digunakan untuk keperluan pribadi. <br>
+                        4. Protokol maupun teknik yang digunakan di dalam jaringan PAN yaitu Wireless Application
+                        Protocol, WiFi, Bluetooth, Infrared, dan lain sebagainya. <br>
+                        5. Jaringan ini mempunyai jangkauan hanya beberapa metir sehingga tidak dapat digunakan untuk
+                        mentransmisikan data dengan jarak yang jauh.
+                    </p>
+                </div>
+                <br>
+                <h2>
+                    <b>
+                        Kelebihan dan Kekurangan Jaringan PAN
+                    </b>
+                </h2>
+                <p class="pb-2">
+                    Sama halnya dengan jaringan yang lain, Personal Area Network atau PAN juga memiliki kelebihan dan
+                    kekurangannya masing-masing. Berikut ini adalah kelebihan dan kekurangan jaringan PAN :
+                </p>
+                <h2>
+                    <b>
+                        Kelebihan Jaringan PAN
+                    </b>
+                </h2>
+                <div class="block p-6 rounded-lg bg-white max-w-sm">
+                    <p class="text-black">
+                        1. Hemat Biaya: PAN merupakan jenis jaringan yang tidak memerlukan biaya yang banyak untuk
+                        membuatnya. Hal ini karena Anda tidak memerlukan kawat maupun kabel. Anda juga tidak perlu
+                        mengeluarkan biaya tambahan ketika harus menjelakjahi internet sehingga cenderung lebih murah
+                        <br>
+                        2. Lebih Aman: setiap sinyal atau perangkat akan diotorisasi sebelum perangkat tersebut mengirim
+                        data atau file
+                        <br>
+                        3. Banyak Perangkat yang Terkoneksi dalam Satu Waktu: Ada banyak perangkat yang terkoneksi di
+                        waktu
+                        yang bersamaan
+                    </p>
+                </div>
+                <br>
+                <h2>
+                    <b>
+                        Kekurangan Jaringan PAN
+                    </b>
+                </h2>
+                <div class="block p-6 rounded-lg bg-white max-w-sm">
+                    <p class="text-black">
+                        1. Mengganggu Kesehatan: sinyal yang dilepaskan oleh PAN berpotensi membahayakan manusia maupun
+                        hewan serta berpotensi menyebakan ganggunan kesehatan
+                        <br>
+                        2. Transfer Data Lambat: PAN mempunyai kecepatan transfer data yang cenderung lebih mahal
+                        dibandingkan jenis jaringan yang lain
+                        <br>
+                        3. Jarak yang Sempit: jaringan ini tidak bisa digunakan untuk berkomunikasi jarak jauh karena
+                        hanya
+                        berlaku beberapa meter
+                    </p>
+                </div>
             </div>
+    </section>
+    <!-- LAN -->
+    <section class="pt-36">
+        <div class="container">
+            <h2 class="pb-2">
+                <b>2. LAN (Local Area Network)</b>
+            </h2>
+            <div class="pb-4 bg-cover bg-center">
+                <img src="https://w7.pngwing.com/pngs/520/657/png-transparent-computer-network-mikrotik-optical-fiber-network-architecture-virtual-lan-ftth-computer-network-angle-local-area-network.png"
+                    alt="">
+            </div>
+            <p class="pb-4">
+                LAN adalah jaringan komputer dengan cakupan jaringan yang sangat sedikit atau terbatas. Misalnya
+                jaringan komputer di kantor, sekolah, rumah, atau satu ruangan. Jaringan dibangun di tempat-tempat
+                seperti rumah dan gedung perkantoran. Ini juga dapat diartikan sebagai sistem komunikasi komputer yang
+                terbatas pada jarak dalam beberapa kilometer, menggunakan koneksi berkecepatan tinggi 2-100 Mbit/s.
+            </p>
+            <h2>
+                <b>Fungsi LAN (Local Area Network)</b>
+            </h2>
+            <ul class="list-disc">
+                <li>Lorem, ipsum.</li>
+                <li></li>
+                <li></li>
+            </ul>
         </div>
     </section>
-    <section class="pt-20">
-        <div>
-            <aside>
-                <h1 class="text-xl text-center">Tugas 1 Jaringan Komputer</h1>
-                <h1 class="text-xl text-center">Nama : Amir Hakim Adila Yahya</h1>
-                <h1 class="text-xl text-center">NIM : 17210253</h1>
-            </aside>
-        </div>
-    </section>
-    <script src="dist/js/script.js"></script>
+    <script src="/dist/js/script.js"></script>
 </body>
 
 </html>
