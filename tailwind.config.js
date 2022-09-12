@@ -1,5 +1,5 @@
 module.exports = {
-  content: ["index.html"],
+  content: ["./blog/**/*.{html,js}"],
   theme: {
     container: {
       center: true,
