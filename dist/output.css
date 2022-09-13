@@ -644,6 +644,10 @@ video {
   width: 40%;
 }
 
+.w-1\/2 {
+  width: 50%;
+}
+
 .max-w-\[250px\] {
   max-width: 250px;
 }
@@ -668,6 +672,14 @@ video {
 
 .list-disc {
   list-style-type: disc;
+}
+
+.list-decimal {
+  list-style-type: decimal;
+}
+
+.place-content-center {
+  place-content: center;
 }
 
 .items-center {
