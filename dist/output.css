@@ -801,6 +801,10 @@ video {
   list-style-type: disc;
 }
 
+.list-decimal {
+  list-style-type: decimal;
+}
+
 .flex-wrap {
   flex-wrap: wrap;
 }
