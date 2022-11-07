@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html class="scroll-smooth" lang="id">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TUGAS 1 Jaringan Komputer</title>
+    <link rel="icon" type="image/x-icon" href="../dist/img/favicon.png" sizes="512x512">
+    <!-- TailwindCSS -->
+    <link rel="stylesheet" href="../dist/output.css">
+    <!-- JS -->
+    <script src="../dist/js/script.js"></script>
+    <!-- Font Awesome -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
+</head>
+
+<body class="select-none bg-body text-white font-poppins pb-12">
+    <!-- Header Section Start -->
+    <header class="bg-transparent absolute top-0 left-0 w-full flex items-center
+	z-10">
+        <div class="container">
+            <div class="flex item-center justify-between relative">
+                <div class="px-4">
+                    <a href="https://ahay12.github.io/portfolio/#" class="block py-6">
+                        <img src="../dist/img/favicon.png" alt="logo">
+                    </a>
+                </div>
+                <div class="flex items-center px-4">
+                    <button id="hamburger" name="hamburger" type="button"
+                        class="block absolute right-4 lg:hidden md:hidden">
+                        <span class="hamburger-line transition duration-300 ease-in-out origin-top-left"></span>
+                        <span class="hamburger-line transition duration-300 ease-in-out"></span>
+                        <span class="hamburger-line transition duration-300 ease-in-out origin-bottom-left"></span>
+                    </button>
+
+                    <nav id="nav-menu" class="hidden absolute py-5 bg-neutral-800 
+					shadow-lg rounded-lg max-w-[250px] w-full right-0 top-full lg:block lg:static lg:bg-transparent lg:max-w-full 
+					md:block md:static md:max-w-full md:bg-transparent">
+                        <ul class="block lg:flex lg:shadow-none lg:rounded-none md:flex md:shadow-none md:rounded-none">
+                            <li class="group">
+                                <a href="https://ahay12.github.io/portfolio/#" class="text-base text-white
+								py-2 mx-8 flex group-hover:text-theme">Home</a>
+                            </li>
+                            <li class="group">
+                                <a href="https://ahay12.github.io/portfolio/#about-me" class="text-base text-white
+								py-2 mx-8 flex group-hover:text-theme">Tentang Saya</a>
+                            </li>
+                            <li class="group">
+                                <a href="https://id.linkedin.com/in/amir-hakim-adila-yahya-2951b41b4" class="text-base text-white
+								py-2 mx-8 flex group-hover:text-theme">CV</a>
+                            </li>
+                            <li class="group">
+                                <a href="https://ahay12.github.io/portfolio/#portfolio" class="text-base text-white
+								py-2 mx-8 flex group-hover:text-theme">Portfolio</a>
+                            </li>
+                            <li class="group">
+                                <a href="https://ahay12.github.io/portfolio/#blog" class="text-base text-white
+								py-2 mx-8 flex group-hover:text-theme">Blog</a>
+                            </li>
+                            <li class="group">
+                                <a href="#contact" class="text-base text-white
+								py-2 mx-8 flex group-hover:text-theme">Contact</a>
+                            </li>
+                        </ul>
+                    </nav>
+                </div>
+            </div>
+        </div>
+    </header>
+    <!-- Header Section End -->
+    <!-- macam2 topologi -->
+    <section class="pt-36 m-0">
+        <div class="container text-justify">
+            <div class="items-center justify-center py-20">
+                <h1 class="text-4xl font-bold text-center">TUGAS JARINGAN KOMPUTER</h1>
+                <p class="text-base text-center">KELEBIHAN DAN KEKURANGAN TOPOLOGI JARINGAN</p>
+            </div>
+            <div class="container">
+                <h2 class="text-2xl font-bold pb-3">Topologi Jaringan Berdasarkan Jenisnya</h2>
+                <ul class="list-decimal">
+                    <li class="font-bold">Topologi Bus</li>
+                    <p class="pb-2">Pengertian topologi jaringan bus adalah topologi jaringan yang susunan topologi
+                        jaringannya
+                        cenderung lebih sederhana dibandingkan yang lain. Sebab pada topologi jaringan bus biasanya
+                        hanya menggunakan kabel coaxial sepanjang node client serta konektor seperti TNBC, terminator,
+                        ataupun BNC untuk menghubungkan antar perangkat komputer. </p>
+                    <li class="font-bold">Topologi Ring</li>
+                    <p class="pb-2">Topologi jaringan cincin juga dikenal dengan topologi jaringan ring. Pengertian
+                        topologi jarigan
+                        cincin adalah topologi yang digunakan untuk menghubungkan antar perangkat dengan bentuk
+                        melingkar seperti cincin. Sehingga dengan jenis topologi jaringan cincin ini memungkinkan antar
+                        perangkat komputer dapat saling terhubung. Pada jenis ini biasanya menggunakan LAN card agar
+                        dapat membuat koneksi antar komputer.</p>
+                    <li class="font-bold">Topologi Star</li>
+                    <p class="pb-2">Sesuai dengan namanya pengertian topologi jaringan star memiliki susunan seperti
+                        bentuk bintang.
+                        Pada topologi star biasanya untuk menghubungkan antar perangkat atau client menggunakan switch
+                        ataupun hub. Letak switch ataupun hub tersebut berada di tengah yang nantinya digunakan untuk
+                        koneksi antar satu perangkat.</p>
+                    <li class="font-bold">Topologi Mesh</li>
+                    <p class="pb-2">Pengertian topologi jaringan mesh adalah topologi jaringan yang digunakan dengan
+                        menggunakan
+                        kabel tunggal untuk menghubungkan antar perangkat. Adanya kabel tunggal tersebut bisa membantu
+                        proses mengirim data lebih cepat tanpa adanya switch atau hub. Ini biasanya dipakai pada
+                        topologi jaringan yang memiliki banyak rute seperti bentuk jala.</p>
+                    <li class="font-bold">Topologi Tree</li>
+                    <p class="pb-2">Topologi jaringan berdasarkan jenisnya yakni topologi tree adalah topologi yang
+                        digunakan dengan
+                        menggabungkan antara jenis topologi star dan bus. Nantinya jenis topologi ini akan dipakai untuk
+                        menghubungkan antar perangkat dengan bentuknya seperti hirearki atau bertingkat dari atas ke
+                        bawah.</p>
+                </ul>
+            </div>
+        </div>
+    </section>
+    <!-- end macam2 topologi -->
+    <!-- start kelebihan dan kekurnagan -->
+    <section class="pt-10 m-0">
+        <div class="container">
+            <h1 class="text-2xl font-bold">Kekurangan Topologi Berdasakan Jenisnya</h1>
+            <div class="container">
+                <ul class="list-decimal">
+                    <li class="font-bold">Topologi Bus</li>
+                    <ul class="ml-5 list-disc pb-5">
+                        <li>Apabila terjadi masalah pada kabel utama maka dapat mengganggu jaringan setiap komputer.
+                        </li>
+                        <li>Masalah cenderung sulit terdeteksi.</li>
+                        <li>Sinyal kurang stabil apabila digunakan untuk menghubungkan banyak perangkat.</li>
+                        <li>Rentan mengalami tabrakan pada arus data.</li>
+                        <li>Rumit untuk dikembangkan.</li>
+                    </ul>
+                    <li class="font-bold">Topologi Ring</li>
+                    <ul class="ml-5 list-disc pb-5">
+                        <li>Sulit diperbaiki apabila terjadi masalah atau gangguan pada topologi jaringan cincin.</li>
+                        <li>Kurang cocok dipakai untuk koneksi jaringan yang padat.</li>
+                        <li>Rentan mengalami tabrakan pada arus data.</li>
+                        <li>Koneksi cenderung lambat namun stabil.</li>
+                    </ul>
+                    <li class="font-bold">Topologi Star</li>
+                    <ul class="ml-5 list-disc pb-5">
+                        <li>Biaya pembuatan cenderung mahal.</li>
+                        <li>Masalah pada switch atau hub bisa berpengaruh pada semua jaringan computer.</li>
+                        <li>Jaringan bergantung pada terminal pusat atau spesifikasi hub ataupun switch.</li>
+                    </ul>
+                    <li class="font-bold">Topologi Mesh</li>
+                    <ul class="ml-5 list-disc pb-5">
+                        <li>Perlu banyak kabel untuk menghubungkan antar perangkat.</li>
+                        <li>Biaya cenderung mahal.</li>
+                        <li>Pemasangan ataupun instalasi cukup rumit.</li>
+                    </ul>
+                    <li class="font-bold">Topologi Tree</li>
+                    <ul class="ml-5 list-disc pb-5">
+                        <li>Boros kabel.</li>
+                        <li>Biaya cenderung mahal.</li>
+                        <li>Koneksi jaringan lambat.</li>
+                        <li>Apabila mengalami masalah pada komputer pusat atau di atasnya maka berpengaruh pada
+                            perangkat di bawah.</li>
+                    </ul>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <section>
+        <div class="container">
+            <h1 class="text-2xl font-bold">Kelebihan Berdasakan Jenisnya</h1>
+            <div class="container">
+                <ul class="list-decimal">
+                    <li class="font-bold">Topologi Bus</li>
+                    <ul class="ml-5 list-disc pb-5">
+                        <li>Biaya pemasangan atau pembuatan cenderung murah.</li>
+                        <li>Minim penggunaan kabel.</li>
+                        <li>Penambahan client baru cenderung mudah dilakukan.</li>
+                        <li>Jaringan hanya terhubung pada kabel utama sehingga lebih simple.</li>
+                    </ul>
+                    <li class="font-bold">Topologi Ring</li>
+                    <ul class="ml-5 list-disc pb-5">
+                        <li>Mudah dan cepat untuk dibuat.</li>
+                        <li>Biaya pembuatan cenderung lebih murah.</li>
+                        <li>Minim penggunaan kabel.</li>
+                        <li>Koneksi cukup stabil dan baik.</li>
+                    </ul>
+                    <li class="font-bold">Topologi Star</li>
+                    <ul class="ml-5 list-disc pb-5">
+                        <li>Tingkat keamanan cukup tinggi.</li>
+                        <li>Cukup mudah menyambungkan atau menambahkan client baru.</li>
+                        <li>Mudah terdeteksi apabila mengalami gangguan.</li>
+                        <li>Jaringan lebih fleksibel dibanding yang lainnya.</li>
+                    </ul>
+                    <li class="font-bold">Topologi Mesh</li>
+                    <ul class="ml-5 list-disc pb-5">
+                        <li>Memiliki keamanan dan privasi yang cukup baik.</li>
+                        <li>Adanya kecepatan arus lalu lintas dibanding yang lainnya.</li>
+                        <li>Mudah terdeteksi apabila terjadi masalah.</li>
+                    </ul>
+                    <li class="font-bold">Topologi Tree</li>
+                    <ul class="ml-5 list-disc pb-5">
+                        <li>Pengaturan data cenderung mudah.</li>
+                        <li>Masalah mudah terdeteksi.</li>
+                        <li>Bisa dikembangkan dengan jaringan lebih luas.</li>
+                    </ul>
+                </ul>
+            </div>
+        </div>
+    </section>
+    <!-- end kelebihan dan kekurangan -->
+    <section class="container">
+        <p>Referensi :</p>
+        <a class="hover:text-blue-600"
+            href="https://plus.kapanlagi.com/5-kekurangan-topologi-jaringan-dan-kelebihannya-kenali-jenisnya-e54274.html">https://plus.kapanlagi.com/5-kekurangan-topologi-jaringan-dan-kelebihannya-kenali-jenisnya-e54274.html</a>
+    </section>
+</body>
+
+</html>
