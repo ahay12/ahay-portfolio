@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html class="scroll-smooth" lang="id">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TUGAS 1 Jaringan Komputer</title>
+    <link rel="icon" type="image/x-icon" href="../dist/img/favicon.png" sizes="512x512">
+    <!-- TailwindCSS -->
+    <link rel="stylesheet" href="../dist/output.css">
+    <!-- JS -->
+    <script src="../dist/js/script.js"></script>
+    <!-- Font Awesome -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
+</head>
+
+<body class="select-none bg-body text-white font-poppins pb-12">
+    <!-- Header Section Start -->
+    <header class="bg-transparent absolute top-0 left-0 w-full flex items-center
+	z-10">
+        <div class="container">
+            <div class="flex item-center justify-between relative">
+                <div class="px-4">
+                    <a href="https://ahay12.github.io/portfolio/#" class="block py-6">
+                        <img src="../dist/img/favicon.png" alt="logo">
+                    </a>
+                </div>
+                <div class="flex items-center px-4">
+                    <button id="hamburger" name="hamburger" type="button"
+                        class="block absolute right-4 lg:hidden md:hidden">
+                        <span class="hamburger-line transition duration-300 ease-in-out origin-top-left"></span>
+                        <span class="hamburger-line transition duration-300 ease-in-out"></span>
+                        <span class="hamburger-line transition duration-300 ease-in-out origin-bottom-left"></span>
+                    </button>
+
+                    <nav id="nav-menu" class="hidden absolute py-5 bg-neutral-800 
+					shadow-lg rounded-lg max-w-[250px] w-full right-0 top-full lg:block lg:static lg:bg-transparent lg:max-w-full 
+					md:block md:static md:max-w-full md:bg-transparent">
+                        <ul class="block lg:flex lg:shadow-none lg:rounded-none md:flex md:shadow-none md:rounded-none">
+                            <li class="group">
+                                <a href="https://ahay12.github.io/portfolio/#" class="text-base text-white
+								py-2 mx-8 flex group-hover:text-theme">Home</a>
+                            </li>
+                            <li class="group">
+                                <a href="https://ahay12.github.io/portfolio/#about-me" class="text-base text-white
+								py-2 mx-8 flex group-hover:text-theme">Tentang Saya</a>
+                            </li>
+                            <li class="group">
+                                <a href="https://id.linkedin.com/in/amir-hakim-adila-yahya-2951b41b4" class="text-base text-white
+								py-2 mx-8 flex group-hover:text-theme">CV</a>
+                            </li>
+                            <li class="group">
+                                <a href="https://ahay12.github.io/portfolio/#portfolio" class="text-base text-white
+								py-2 mx-8 flex group-hover:text-theme">Portfolio</a>
+                            </li>
+                            <li class="group">
+                                <a href="https://ahay12.github.io/portfolio/#blog" class="text-base text-white
+								py-2 mx-8 flex group-hover:text-theme">Blog</a>
+                            </li>
+                            <li class="group">
+                                <a href="#contact" class="text-base text-white
+								py-2 mx-8 flex group-hover:text-theme">Contact</a>
+                            </li>
+                        </ul>
+                    </nav>
+                </div>
+            </div>
+        </div>
+    </header>
+    <!-- Header Section End -->
+    <section class="pt-36">
+        <div class="container text-justify">
+            <div class="text-center">
+                <h1 class="text-2xl">Jenis Jenis Protokol dan Fungsinya</h1>
+            </div>
+        </div>
+    </section>
+
+    <section class="container">
+        <ul class="list-decimal">
+            <li class="font-bold">ICMP</li>
+            <div class="w-1/2">
+                <img src="https://www.logsign.com/uploads/what_is_icmp_664d9661f5.png" alt="img-icmp">
+            </div>
+            <p>Internet Control Message Protocol (ICMP) adalah salah satu protokol inti dari keluarga protokol internet.
+                ICMP utamanya digunakan oleh sistem operasi komputer jaringan untuk mengirim pesan kesalahan yang
+                menyatakan, sebagai contoh, bahwa komputer tujuan tidak bisa dijangkau.
+
+                ICMP berbeda tujuan dengan TCP dan UDP dalam hal ICMP tidak digunakan secara langsung oleh aplikasi
+                jaringan milik pengguna. salah satu pengecualian adalah aplikasi ping yang mengirim pesan ICMP Echo
+                Request (dan menerima Echo Reply) untuk menentukan apakah komputer tujuan dapat dijangkau dan berapa
+                lama paket yang dikirimkan dibalas oleh komputer tujuan.</p>
+            <li class="font-bold pt-6">POP3</li>
+            <div class="w-1/2">
+                <img src="https://niagaspace.sgp1.digitaloceanspaces.com/blog/wp-content/uploads/2022/10/27095256/perbedaan-pop3-dan-imap-1024x512.jpg"
+                    alt="pop3-img">
+            </div>
+            <p>POP3 (Post Office Protocol version 3) adalah protokol yang digunakan untuk mengambil surat elektronik
+                (email) dari server email.
+
+                Protokol ini erat hubungannya dengan protokol SMTP dimana protokol SMTP berguna untuk mengirim surat
+                elektronik dari komputer pengirim ke server.
+
+                Protokol POP3 dibuat karena desain dari sistem surat elektronik yang mengharuskan adanya server surat
+                elektronik yang menampung surat eletronik untuk sementara sampai surat elektronik tersebut diambil oleh
+                penerima yang berhak. Kehadiran server surat elektronik ini disebabkan kenyataan hanya sebagian kecil
+                dari komputer penerima surat elektronik yang terus-menerus melakukan koneksi ke jaringan internet.</p>
+            <li class="font-bold pt-6">SMPT</li>
+            <div class="w-1/2">
+                <img src="https://fotc.com/app/uploads/2022/06/SMTP-server-diagram-drawIO.png" alt="img-smpt">
+            </div>
+            <p>SMTP (Simple Mail Transfer Protocol) merupakan salah satu protokol yang umum digunakan untuk pengiriman
+                surat elektronik di Internet. Protokol ini dipergunakan untuk mengirimkan data dari komputer pengirim
+                surat elektronik ke server surat elektronik penerima.
+
+                Protokol ini timbul karena desain sistem surat elektronik yang mengharuskan adanya server surat
+                elektronik yang menampung sementara sampai surat elektronik diambil oleh penerima yang berhak.</p>
+            <li class="font-bold pt-6">FTP</li>
+            <div>
+                <img src="https://lms.onnocenter.or.id/wiki/images/thumb/6/68/CaraKerjaFTP.jpeg/300px-CaraKerjaFTP.jpeg"
+                    alt="FTP">
+            </div>
+            <p class="pt-5">FTP (singkatan dari File Transfer Protocol) adalah sebuah protokol Internet yang berjalan di
+                dalam
+                lapisan aplikasi yang merupakan standar untuk pentransferan berkas (file) komputer antar mesin-mesin
+                dalam sebuah internetwork.</p>
+            <li class="font-bold pt-6">ARP</li>
+            <div>
+                <img src="https://lms.onnocenter.or.id/wiki/images/0/0f/Arp2.jpeg" alt="">
+            </div>
+            <p class="pt-5">Address Resolution Protocol disingkat ARP adalah sebuah protokol dalam TCP/IP Protocol Suite
+                yang
+                bertanggungjawab dalam melakukan resolusi alamat IP ke dalam alamat Media Access Control (MAC Address).
+                ARP didefinisikan di dalam RFC 826.
+
+                ARP stands for Address Resolution Protocol and it allows the network to translate IP addresses into MAC
+                addresses. Basically, ARP works like this: When one host using IP on a LAN is trying to contact another
+                it needs the MAC address (aka: hardware address) of the host it is trying to contact. It first looks in
+                it's ARP cache (to see your ARP cache in windows type in "arp –a" at the command line) to see if it
+                already has the MAC address, but if not it broadcasts out an ARP request asking "Yo, who has this IP
+                address I'm looking for?" If the host that has that IP address hears the ARP query it will respond with
+                it's own MAC address and a conversation can begin using IP. In common bus networks like Ethernet using a
+                hub or 801.11b all traffic can be seen by all hosts who's NICs are in promiscuous mode, but things are a
+                bit different on switched networks. A switch looks at the data sent to it and tries to only forwards
+                packets to its intended recipient based on MAC address. Switched networks are more secure and help speed
+                up the network by only sending packets where they need to go. There are ways around switches though ;).
+
+
+                Ketika sebuah aplikasi yang mendukung teknologi protokol jaringan TCP/IP mencoba untuk mengakses sebuah
+                host TCP/IP dengan menggunakan alamat IP, maka alamat IP yang dimiliki oleh host yang dituju harus
+                diterjemahkan terlebih dahulu ke dalam MAC Address agar frame-frame data dapat diteruskan ke tujuan dan
+                diletakkan di atas media transmisi (kabel, radio, atau cahaya), setelah diproses terlebih dahulu oleh
+                Network Interface Card (NIC). Hal ini dikarenakan NIC beroperasi dalam lapisan fisik dan lapisan
+                data-link pada tujuh lapis model referensi OSI dan menggunakan alamat fisik daripada menggunakan alamat
+                logis (seperti halnya alamat IP atau nama NetBIOS) untuk melakukan komunikasi data dalam jaringan.</p>
+        </ul>
+    </section>
+
+    <div class="text-center pt-10">
+        <h1 class="text-2xl">Kelebihan dan Kekurangan Ipv4 dan Ipv6</h1>
+    </div>
+    <section class="pt-10">
+        <div class="container">
+            <h1 class="text-xl">Internet Protokol Versi 4 (Ipv4)</h1>
+            <p class="font-bold">Kelebihan:</p>
+            <ul class="list-disc">
+                <li>Tidak mensyaratkan ukuran paket pada link layer dan harus bisa menyusun kembali paket berukuran 576
+                    byte.</li>
+                <li>Pengelolaan rute informasi yang tidak memerlukan seluruh 32 bit tersebut, melainkan cukup hanya
+                    bagian jaringannya saja, sehingga besar informasi rute yang disimpan di router, menjadi kecil.
+                    Setelah address jaringan diperoleh, maka organisasi tersebut dapat secara bebas memberikan address
+                    bagian host pada masing-masing hostnya.</li>
+            </ul>
+            <p class="pt-10 font-bold">Kekurangan :</p>
+            <ul class="list-disc">
+                <li>Panjang alamat 32 bit (4bytes).</li>
+                <li>Dikonfigurasi secara manual atau DHCP IPv4.</li>
+                <li>Dukungan terhadap IPSec opsional.</li>
+                <li>Fragmentasi dilakukan oleh pengirim dan pada router, menurunkan kinerja router.</li>
+                <li>IPv4 yang hanya memiliki panjang 32-bit (jumlah total alamat yang dapat dicapainya mencapai
+                    4,294,967,296 alamat). IPv4, meskipun total alamatnya mencapai 4 miliar, pada kenyataannya tidak
+                    sampai 4 miliar alamat, karena ada beberapa limitasi, sehingga implementasinya saat ini hanya
+                    mencapai beberapa ratus juta saja.</li>
+            </ul>
+        </div>
+    </section>
+
+    <section class="container pt-10">
+        <div>
+            <h1 class="text-xl">Internet Protokol Versi 6 (Ipv6)</h1>
+            <p class="font-bold">Kelebihan :</p>
+            <ul class="list-disc">
+                <li>Format header baru. Header baru IPv6 lebih efisien daripada header pada IPv4 (karena memiliki
+                    overhead yang lebih kecil). Hal ini diperoleh dengan menghilangkan beberapa bagian yang tidak
+                    penting atau opsional.</li>
+                <li>Jumlah alamat yang jauh lebih besar. Dengan spesifikasi bit untuk alamat standar sebanyak 128-bit
+                    memiliki arti IPv6 akan mampu menyediakan 2128 kemungkinan alamat unik. Walaupun tidak semuanya akan
+                    dialokasikan namun sudah cukup untuk keperluan masa mendatang sehingga teknologi semacam NAT pada
+                    IPv4 sudah tidak perlu lagi digunakan.</li>
+                <li>Infrastruktur routing dan addressing yang efisien dan hirarkis. Arsitektur pengalamatan IPv6 yang
+                    hirarkis membuat infrastruktur routing menjadi efisien dan hirarkis juga. Adanya konsep skup juga
+                    memudahkan dalam manajemen pengalamatan untuk berbagai mode teknologi transmisi.</li>
+                <li>Keamanan yang sudah menjadi standar built-in.Jika pada IPv4 fitur IPsec hanya bersifat opsional maka
+                    pada IPv6 fitur IPsec ini menjadi spesifikasi standar. Paket IPv6 sudah bisa secara langsung
+                    diamankan pada layer network.</li>
+                <li>Dukungan yang lebih bagus untuk QoS. Adanya bagian (field) baru pada header IPv6 untuk
+                    mengidentifikasi trafik (Flow Label) dan Traffic Class untuk prioritas trafik membuat QoS yang lebih
+                    terjamin bisa diperoleh, bahkan ketika payload dari paket terenkripsi dengan IPSec dan ESP.</li>
+            </ul>
+            <p class="pt-10 font-bold">Kekurangan :</p>
+            <ul class="list-disc">
+                <li>Operasi IPv6 membutuhkan perubahan perangkat (keras dan/atau lunak) yang baru yang mendukungnya.
+                </li>
+                <li>Harus ada pelatihan tambahan, serta kewajiban tetap mengoperasikan jaringan IPv4, sebab masih banyak
+                    layanan IPv6 yang berjalan di atas IPv4.</li>
+            </ul>
+        </div>
+    </section>
+    <!-- 
+    <section class="container">
+        <p>Referensi :</p>
+        <a class="hover:text-blue-600"
+            href="https://plus.kapanlagi.com/5-kekurangan-topologi-jaringan-dan-kelebihannya-kenali-jenisnya-e54274.html">https://plus.kapanlagi.com/5-kekurangan-topologi-jaringan-dan-kelebihannya-kenali-jenisnya-e54274.html</a>
+    </section> -->
+</body>
+
+</html>
